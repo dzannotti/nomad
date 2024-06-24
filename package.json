@@ -1,0 +1,21 @@
+{
+  "name": "nomad",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "rustic": "^1.2.2",
+    "ts-pattern": "^5.2.0"
+  }
+}
